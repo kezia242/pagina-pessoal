@@ -3,7 +3,7 @@ Página Pessoal
 
 ## Sobre mim
 
-Olá! Meu nome é Kezia e esta é minha página pessoal, desenvolvida na disciplina de Programação Web I do curso Técnico em Informática para Internet do IF Sudeste MG.
+Olá! Meu nome é Kezia Manuella Alves de Moraes e esta é minha página pessoal, desenvolvida na disciplina de Programação Web I do curso Técnico em Informática para Internet do IF Sudeste MG.
 
 ## Meus hobbies
 
