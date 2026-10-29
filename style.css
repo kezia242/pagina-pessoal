@@ -1,0 +1,238 @@
+/* --- 1. CONFIGURAÇÕES GERAIS E FUNDO COM DEGRADÉ --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f7f2fa 0%, #ece1f3 100%);
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* --- 2. CABEÇALHO (Roxo Elegante com Sombra) --- */
+header {
+    background: linear-gradient(135deg, #6a1b9a 0%, #4a148c 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #ab47bc;
+    box-shadow: 0 4px 12px rgba(106, 27, 154, 0.2);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #e1bee7;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+/* --- 3. CONTEÚDO PRINCIPAL (Efeito Cartão Flutuante) --- */
+main {
+    max-width: 850px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(106, 27, 154, 0.1);
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #6a1b9a;
+    border-bottom: 2px solid #e1bee7;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #4a4a4a;
+}
+
+/* Listas estilizadas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #faf5fc;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #ab47bc;
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    transform: translateX(5px);
+}
+
+/* --- 4. ESTILIZAÇÃO DA FOTO DE PERFIL --- */
+.foto-perfil {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid #ab47bc;
+    display: block;
+    margin: 0 auto 25px auto;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(171, 71, 188, 0.3);
+}
+
+/* --- 5. FORMULÁRIO DE CONTATO MODERNO --- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset {
+    border: 2px solid #e1bee7;
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #fdfbfe;
+}
+
+legend {
+    font-weight: bold;
+    color: #6a1b9a;
+    padding: 0 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+label {
+    font-weight: bold;
+    color: #4a148c;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ce93d8;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #6a1b9a;
+    outline: none;
+    box-shadow: 0 0 8px rgba(106, 27, 154, 0.2);
+}
+
+/* Botões com efeito moderno */
+button[type="submit"], button[type="reset"] {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-right: 10px;
+    box-shadow: 0 4px 10px rgba(106, 27, 154, 0.2);
+}
+
+button[type="submit"]:hover {
+    background-color: #4a148c;
+    transform: translateY(-2px);
+}
+
+button[type="reset"] {
+    background-color: #ab47bc;
+}
+
+button[type="reset"]:hover {
+    background-color: #8e24aa;
+    transform: translateY(-2px);
+}
+
+/* --- 6. NAVEGAÇÃO E RODAPÉ --- */
+nav {
+    background-color: #f3e5f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+nav ul li {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover {
+    transform: none;
+}
+
+nav a, nav p a {
+    background-color: #6a1b9a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover, nav p a:hover {
+    background-color: #ab47bc;
+    color: white;
+    box-shadow: 0 4px 10px rgba(106, 27, 154, 0.3);
+}
+
+footer {
+    background: linear-gradient(135deg, #4a148c 0%, #311b92 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    font-size: 0.95rem;
+    margin-top: 50px;
+    border-top: 4px solid #ab47bc;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer a {
+    color: #e1bee7;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
