@@ -31,10 +31,10 @@ A página possui uma seção interativa com um formulário de contato completo c
 ## 📸 Pré-visualização e Capturas de Tela
 
 ### 1. Visão Geral da Página Pessoal
-![Captura de Tela da Página Pessoal](print-pagina.png)
+![Captura de Tela da Página Pessoal](imagens/print-pagina.png)
 
 ### 2. Seção do Formulário de Contato
-![Formulário de contato](print-contato%20pagina%20pessoal.png)
+![Formulário de contato](imagens/print-contato%20pagina%20pessoal.png)
 
 ---
 Desenvolvido por **Kezia Manuella Alves de Moraes**.
