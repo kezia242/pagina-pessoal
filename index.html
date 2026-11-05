@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Minha Página Pessoal</title>
 
-        <!-- Ligação com a folha de estilos externa exigida pela atividade -->
+        <!-- Ligação com a folha de estilos externa -->
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -16,71 +16,136 @@
             <p>Estudante de Técnico em Informática para Internet</p>
         </header>
 
+        <!-- BARRA DE NAVEGAÇÃO NO TOPO -->
+        <nav>
+            <h2>Navegação</h2>
+
+            <ul>
+                <li>
+                    <a href="#apresentacao">
+                        Minha apresentação
+                    </a>
+                </li>
+                <li>
+                    <a href="#hobbies">
+                        Meus hobbies
+                    </a>
+                </li>
+                <li>
+                    <a href="#tecnologias">
+                        Tecnologias e Interesses
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre.html">
+                        Saiba mais sobre mim
+                    </a>
+                </li>
+                <li>
+                    <a href="#contato">
+                        Entre em contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
         <main>
+            <!-- SECÇÃO SOBRE MIM -->
             <section id="apresentacao">
                 <h2>Sobre mim</h2>
 
                 <p>
-                    Meu nome é Kezia e atualmente curso Técnico em
-                    Informática para Internet no IF Sudeste MG.
-                    Estou ampliando meus conhecimentos em tecnologia
-                    e aprendendo a desenvolver páginas web.
+                    Olá! Meu nome é Kezia, tenho 30 anos, sou natural de Recife - PE e moro em Conselheiro Lafaiete - MG. 
+                    Atualmente curso Técnico em Informática para Internet no IF Sudeste MG - Campus Barbacena, ampliando meus 
+                    conhecimentos em tecnologia e aprendendo a desenvolver páginas web.
                 </p>
 
                 <p>
-                    Meu objetivo é continuar aprendendo,
-                    desenvolver novas habilidades e ampliar minhas
-                    oportunidades profissionais na área de
-                    tecnologia.
+                    Com bagagem nas áreas de administração, logística e recursos humanos, e experiência profissional como recepcionista, 
+                    inspetora de qualidade e auxiliar de escritório, meu objetivo é continuar aprendendo, desenvolver novas habilidades e 
+                    ampliar minhas oportunidades profissionais nessa transição para a área de tecnologia.
                 </p>
 
-                <!-- DICA: Certifique-se de que sua foto está na pasta "imagens" com este nome ou altere aqui -->
                 <img src="imagens/foto.jpg"
                      alt="Foto de apresentação da Kezia"
                      class="foto-perfil"
                      width="450">
             </section>
 
+            <!-- SECÇÃO HOBBIES -->
             <section id="hobbies">
                 <h2>Meus hobbies e interesses</h2>
 
                 <ul>
-                    <li>Jogar videogame</li>
                     <li>Treinar natação</li>
-                    <li>Assistir a doramas</li>
                     <li>Ler livros</li>
                     <li>Aprender programação e tecnologia</li>
                 </ul>
             </section>
 
-            <nav>
-                <h2>Navegação</h2>
+            <!-- SECÇÃO DE TECNOLOGIAS E INTERESSES -->
+            <section id="tecnologias">
+                <h2>Tecnologias e Interesses</h2>
+                <p>Tecnologias, ferramentas e áreas que estudo e tenho interesse.</p>
 
-                <ul>
-                    <li>
-                        <a href="#apresentacao">
-                            Minha apresentação
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#hobbies">
-                            Meus hobbies
-                        </a>
-                    </li>
-                    <li>
-                        <a href="sobre.html">
-                            Saiba mais sobre mim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contato">
-                            Entre em contato
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+                <div class="grid-cards">
+                    <!-- CARTÃO 1 -->
+                    <div class="card">
+                        <div class="card-topo">
+                            <span class="icone">&lt;/&gt;</span>
+                            <h3>Desenvolvimento Web</h3>
+                        </div>
+                        <p>Criação de sites e aplicações Web com HTML, CSS e JavaScript.</p>
+                        <div class="card-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
 
-            <!-- SEÇÃO DE CONTATO -->
+                    <!-- CARTÃO 2 -->
+                    <div class="card">
+                        <div class="card-topo">
+                            <span class="icone">☕</span>
+                            <h3>Java</h3>
+                        </div>
+                        <p>Desenvolvimento de aplicações back-end, com foco em qualidade e boas práticas.</p>
+                        <div class="card-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring</span>
+                            <span class="tag">JPA</span>
+                        </div>
+                    </div>
+
+                    <!-- CARTÃO 3 -->
+                    <div class="card">
+                        <div class="card-topo">
+                            <span class="icone">🗄️</span>
+                            <h3>Banco de Dados</h3>
+                        </div>
+                        <p>Modelagem, consulta e persistência de dados em aplicações.</p>
+                        <div class="card-tags">
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <!-- CARTÃO 4 -->
+                    <div class="card">
+                        <div class="card-topo">
+                            <span class="icone">🔄</span>
+                            <h3>Controle de Versão</h3>
+                        </div>
+                        <p>Versionamento de código, colaboração e organização de projetos.</p>
+                        <div class="card-tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECÇÃO DE CONTATOS -->
             <section id="contato">
                 <h2>Entre em contato</h2>
                 <form>
