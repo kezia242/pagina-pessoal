@@ -3,11 +3,11 @@
 Página pessoal desenvolvida para a disciplina de **Programação Web I** do **IF Sudeste MG - Campus Barbacena**, sob orientação do professor Fábio Ferreira.
 
 ## 🎨 Sobre o Projeto
-Esta página foi aprimorada utilizando **CSS (Cascading Style Sheets)** externo para estilização, aplicando conceitos de cores, fontes, bordas, dimensões, espaçamentos e organização visual em tons de roxo e lilás.
+Esta página foi aprimorada utilizando **CSS (Cascading Style Sheets)** externo para estilização, aplicando conceitos de cores, fontes, bordas, dimensões, espaçamentos e organização visual em tons de roxo e lilás. Além disso, conta com estruturas modernas de layout utilizando **CSS Grid** e **Flexbox**.
 
 ## 💻 Tecnologias Utilizadas
-* HTML5 (Estruturação semântica)
-* CSS3 (Folha de estilos externa e design responsivo)
+- HTML5 (Estruturação semântica)
+- CSS3 (Folha de estilos externa, Grid Layout, Flexbox e design responsivo)
 
 ---
 
@@ -15,11 +15,9 @@ Esta página foi aprimorada utilizando **CSS (Cascading Style Sheets)** externo 
 Olá! Meu nome é **Kezia Manuella Alves de Moraes** e esta é minha página pessoal, desenvolvida na disciplina de Programação Web I do curso Técnico em Informática para Internet do IF Sudeste MG.
 
 ## 🎮 Meus hobbies
-* Jogar videogame
-* Treinar natação
-* Assistir a doramas
-* Ler livros
-* Aprender programação e tecnologia
+- Treinar natação
+- Ler livros
+- Aprender programação e tecnologia
 
 ---
 
@@ -33,7 +31,10 @@ A página possui uma seção interativa com um formulário de contato completo c
 ### 1. Visão Geral da Página Pessoal
 ![Captura de Tela da Página Pessoal](imagens/print-pagina.png)
 
-### 2. Seção do Formulário de Contato
+### 2. Seção de Tecnologias (Grid e Flexbox)
+![Seção de Tecnologias](imagens/print-flexbox-grid.png)
+
+### 3. Seção do Formulário de Contato
 ![Formulário de contato](imagens/print-contato%20pagina%20pessoal.png)
 
 ---
