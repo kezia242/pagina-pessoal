@@ -46,7 +46,7 @@ main {
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(106, 27, 154, 0.1);
     box-sizing: border-box;
-    width: 100%;
+    width: 90%; /* Ajustado para dar margem lateral em telas pequenas */
 }
 
 section {
@@ -96,11 +96,11 @@ li:hover {
     margin: 0 auto 25px auto;
     object-fit: cover;
     box-shadow: 0 4px 15px rgba(171, 71, 188, 0.3);
+    max-width: 100%; /* Garante responsividade da imagem */
 }
 
 /* --- 5. ESTILIZAÇÃO DOS CARTÕES (GRID & FLEXBOX) --- */
 
-/* REQUISITO: Grid Layout nos cartões */
 .grid-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -108,7 +108,6 @@ li:hover {
     margin-top: 20px;
 }
 
-/* REQUISITO: Flexbox interno dos cartões */
 .card {
     background-color: #fdfbfe;
     border: 2px solid #e1bee7;
@@ -313,4 +312,64 @@ footer a {
 
 footer a:hover {
     color: #ffffff;
+}
+
+/* --- 8. MEDIA QUERIES (DESIGN RESPONSIVO) --- */
+
+/* Para Tablets (telas até 768px) */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+        margin: 20px auto;
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+}
+
+/* Para Smartphones (telas até 480px) */
+@media (max-width: 480px) {
+    header {
+        padding: 25px 10px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        padding: 15px;
+        margin: 10px auto;
+        width: 98%;
+        border-radius: 6px;
+    }
+
+    /* Os botões de formulário empilham e ocupam 100% para facilitar o toque no celular */
+    button[type="submit"], button[type="reset"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    /* O menu de navegação vira coluna para caber bem na tela vertical do celular */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
